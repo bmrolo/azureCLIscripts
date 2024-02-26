@@ -3,4 +3,4 @@ az vm create \
     --name debian \
     --image debian11 \
     --admin-username bmrolo
-    --admin-password P@ssw0rd123##
+    --admin-password P@ssw0rd-123
