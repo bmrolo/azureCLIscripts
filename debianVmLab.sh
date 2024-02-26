@@ -1,7 +1,7 @@
 # Making the resource group
 az group create --location eastus --resource-group debianLab
 
-# Making the vm
+# Making a debian vm
 az vm create \                                               
     --resource-group debianLab  \
     --name debian \
