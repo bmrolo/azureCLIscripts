@@ -1,1 +1,6 @@
-az vm create --resource-group <resource-group-name> --name <vm-name> --image debian11 --authentication-type password --admin-username <admin-username> --admin-password <admin-password> --location eastus
+az vm create \
+    --resource-group Linux_group \
+    --name debian \
+    --image debian11 \
+    --admin-username bmrolo
+    --admin-password P@ssw0rd123##
