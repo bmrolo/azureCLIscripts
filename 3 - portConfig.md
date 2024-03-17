@@ -19,7 +19,6 @@ sudo iptables -P OUTPUT DROP
 ### allowing specific ports to be opened
 
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT # Allow SSH
-sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT # Allow HTTP
 sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT # Allow HTTPS
 
 ### saving and applying rules
