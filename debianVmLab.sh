@@ -9,7 +9,7 @@ az vm create \
     --resource-group debianLab  \
     --name debian \
     --image debian11 \
-   --authentication-type Password  --admin-username username
+   --authentication-type Password  --admin-username mww
 
 # Deleting the resource group
 az group delete --name debianLab --yes --no-wait

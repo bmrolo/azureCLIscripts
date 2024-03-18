@@ -1,20 +1,10 @@
-### installing iptables
-
-sudo apt install iptables
-
-### firewall configuration using iptables
+## firewall configuration using iptables
 
 ### clean out all existing rules
 
 sudo iptables -F
 sudo iptables -X
 sudo iptables -Z
-
-### drop all ports by default
-
-sudo iptables -P INPUT DROP
-sudo iptables -P FORWARD DROP
-sudo iptables -P OUTPUT DROP
 
 ### allowing specific ports to be opened
 
