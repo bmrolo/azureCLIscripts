@@ -8,5 +8,5 @@ sudo usermod -aG griffin lois
 sudo groupadd swanson
 sudo adduser joe
 sudo adduser bonnie
-sudo usermod -aG griffin joe
-sudo usermod -aG griffin bonnie
+sudo usermod -aG swanson joe
+sudo usermod -aG swanson bonnie
