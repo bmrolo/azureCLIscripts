@@ -14,7 +14,7 @@ sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT # Allow HTTPS
 
 ### saving and applying rules
 
-sudo iptables-save > /etc/iptables/rules.v4
+sudo iptables-save
 
 ### verifying iptables config
 
